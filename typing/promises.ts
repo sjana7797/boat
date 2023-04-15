@@ -1,7 +1,7 @@
 import { StaticImageData } from "next/image";
 
 export interface Promise {
-  image: StaticImageData;
+  Icon: JSX.Element;
   promise: string;
   id: number;
 }
